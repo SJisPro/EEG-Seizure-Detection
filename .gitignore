@@ -1,0 +1,60 @@
+# ==============================
+# Python & PyTorch Project .gitignore
+# ==============================
+
+# ---- Environment & OS Files ----
+__pycache__/
+*.py[cod]
+*.so
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+*.log
+*.env
+.env
+.env.local
+
+# ---- Virtual Environment ----
+gpu_env/
+venv/
+env/
+.venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ---- Data ----
+chbmit_data/
+data/
+datasets/
+*.edf
+*.txt
+*.csv
+*.mat
+*.zip
+*.tar
+*.gz
+
+# ---- Model Files ----
+*.pth
+*.pt
+*.onnx
+*.h5
+*.ckpt
+
+# ---- System Files ----
+Thumbs.db
+Desktop.ini
+
+# ---- IDE/Editor ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Reports & Results ----
+*.pdf
+*.docx
+*.doc
+*.pptx
