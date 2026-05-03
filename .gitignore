@@ -30,9 +30,6 @@ chbmit_data/
 data/
 datasets/
 *.edf
-*.txt
-*.csv
-*.mat
 *.zip
 *.tar
 *.gz
@@ -43,6 +40,9 @@ datasets/
 *.onnx
 *.h5
 *.ckpt
+checkpoints/
+runs/
+wandb/
 
 # ---- System Files ----
 Thumbs.db
@@ -54,7 +54,6 @@ Desktop.ini
 *.code-workspace
 
 # ---- Reports & Results ----
-*.pdf
-*.docx
-*.doc
-*.pptx
+# Keep paper/figures deliverables versioned.
+# If you generate exports into a specific folder, ignore that folder instead, e.g.:
+# exports/
